@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/map"
+        android:title="Search on the MAP"
+        android:icon="@drawable/ic_map"/>
+</group>
+<item android:title="Categories">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/culture"
+                android:title="@string/culture"
+                android:icon="@drawable/ic_baseline_account_balance_24"/>
+            <item
+                android:id="@+id/activite"
+                android:title="@string/activite"
+                android:icon="@drawable/ic_downhill_skiing"/>
+            <item
+                android:id="@+id/restaurant"
+                android:title="@string/restaurants"
+                android:icon="@drawable/ic_estaurant"/>
+            <item
+                android:id="@+id/plages"
+                android:title="@string/plage"
+                android:icon="@drawable/ic_beach"/>
+            <item
+                android:id="@+id/hotel"
+                android:title="@string/hotels"
+                android:icon="@drawable/ic_hotel"/>
+            <item
+                android:id="@+id/music"
+                android:title="@string/evenement"
+                android:icon="@drawable/ic_music"/>
+        </group>
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/video"
+                android:title="Explore more"
+                android:icon="@drawable/ic_video"/>
+        </group>
+    </menu>
+</item>
+
+</menu>

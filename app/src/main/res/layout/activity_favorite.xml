@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FavoriteActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:id="@+id/boutonback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_arrow_back" />
+        <SearchView
+            android:id="@+id/searchpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorites"
+        android:textSize="30sp"
+        android:fontFamily="@font/open_sans_bold"
+        android:textAllCaps="true"
+        android:padding="10dp"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/favRecycler"
+    android:layout_margin="2dp"/>
+</LinearLayout>

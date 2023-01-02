@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchMapActivity"
+    android:orientation="vertical">
+
+  <!-- <EditText
+        android:hint="Search.."
+        android:layout_marginTop="40dp"
+        android:id="@+id/inputLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/imageViews"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViews"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/inputLocation"
+        android:src="@drawable/ic_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <fragment
+        android:id="@+id/fragmentMap"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+  <SearchView
+      android:layout_width="400dp"
+      android:layout_height="wrap_content"
+    android:id="@+id/sv_location"
+      android:gravity="center"
+    android:queryHint="Search..."
+    android:iconifiedByDefault="false"
+    android:layout_marginTop="50dp"
+    android:elevation="5dp"
+    android:background="@drawable/bg_roound"/>
+
+</RelativeLayout>

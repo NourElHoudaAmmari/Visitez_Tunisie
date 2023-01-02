@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeachDetails"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="15dp">
+        <ImageView
+            android:id="@+id/share2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_share_24"
+            android:layout_marginLeft="320dp"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:padding="15dp"
+            android:id="@+id/backbtn"
+            android:layout_centerVertical="true"/>
+        <CheckBox
+            android:id="@+id/fav_beach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            app:useMaterialThemeColors="false"
+            android:button="@drawable/selector_wishlist_item" />
+    </RelativeLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/imgDetails"
+    android:src="@drawable/plagem"
+    android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Description"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:id="@+id/txtDetails"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_map"
+        android:layout_marginLeft="16dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/searchtextmap"
+            android:text="See on the Map"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+
+            android:textSize="18sp"/>
+    </RelativeLayout>
+</LinearLayout>

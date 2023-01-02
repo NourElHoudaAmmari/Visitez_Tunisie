@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/guide"
+    android:icon="@drawable/ic_article"
+    android:title ="Guide"
+    />
+    <item
+        android:id="@+id/carte"
+        android:icon="@drawable/ic_map"
+        android:title ="Carte"
+        />
+    <item
+        android:id="@+id/favoirs"
+        android:icon="@drawable/ic_favorite_border"
+        android:title ="Favoirs"
+        />
+
+</menu>

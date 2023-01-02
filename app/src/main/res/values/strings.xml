@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Take A Trip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hotels">Hotels</string>
+    <string name="culture">Culture</string>
+    <string name="activite">Activities and leisure</string>
+    <string name="plage">Beaches</string>
+    <string name="restaurants">Restaurants </string>
+    <string name="evenement">Events and festivals</string>
+    <!-- tiltels and descriptions-->
+    <string name="feature">All Featured Locations</string>
+    <string name="featuredesc">All the locations that are featured and have the top demand in town!</string>
+    <string name="most_viewd_loc">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View all</string>
+    <string name="search_text">Search</string>
+    <string name="logo_name">Take A Trip</string>
+    <string name="slogan_name">Oh, the places you\'ll go!</string>
+    <string name="google_map_key">AIzaSyCZCbGep3xK3bm14uUVdFUgTd3YUNH-Qtk</string>
+    <string name="sultan">https://sultanahmet.tn</string>
+
+</resources>
